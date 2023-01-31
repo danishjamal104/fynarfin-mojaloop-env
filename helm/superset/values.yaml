@@ -72,6 +72,11 @@ mojaloop:
       hostname: email-notifier.sandbox.fynarfin.io
 
   account-lookup-service:
+    als-oracle-pathfinder:
+      enabled: true
+      ingress:
+        enabled: true
+        hostname: als-oracle-pathfinder.sandbox.fynarfin.io
     account-lookup-service:
       ingress:
         enabled: true
@@ -116,7 +121,6 @@ mojaloop:
     ingress:
       enabled: true
       hostname: moja-simulator.sandbox.fynarfin.io
-
 
   mojaloop-simulator:
     simulators:
