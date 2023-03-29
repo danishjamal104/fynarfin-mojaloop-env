@@ -58,11 +58,11 @@ mojaloop:
     ml-api-adapter-service:
       ingress:
         enabled: true
-        hostname: ml-api-adapter.sandbox.fynarfin.io
+        hostname: api-adapter.sandbox.fynarfin.io
     ml-api-adapter-handler-notification:
       ingress:
         enabled: true
-        hostname: ml-api-adapter-notification.sandbox.fynarfin.io
+        hostname: api-adapter-notification.sandbox.fynarfin.io
   emailnotifier:
     ingress:
       enabled: true
